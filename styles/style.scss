@@ -1,0 +1,13 @@
+//Глобальные стили
+@import "base/fonts";
+@import "base/globals";
+
+//Переменные
+@import "vendors/var";
+
+// Компоненты
+@import "components/swiper"; // Слайдер Swiper
+@import "components/homeSlider.module";
+@import "components/header.module.scss";
+@import "components/layout.module.scss";
+@import "components/footer.module.scss";

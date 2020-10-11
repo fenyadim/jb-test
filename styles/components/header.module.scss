@@ -1,0 +1,69 @@
+@import '../vendors/var';
+@import '../vendors/mixin';
+
+.header {
+  display: grid;
+  grid-template-columns: 1fr 3fr 1fr;
+  align-items: center;
+  //margin-top: 1.625em; //26px
+
+  //position: fixed;
+  //top:1.625em;
+  //right: 3.750em;
+  //left: 3.750em;
+}
+
+.leftSide {
+  display: flex;
+}
+
+.leftSideLink {
+  @include link;
+  &:hover {
+    background-color: $gray;
+  }
+  &:last-child {
+    margin-right: 0;
+  }
+}
+
+.logo {
+  display: block;
+  justify-self: center;
+}
+
+.active {
+  @include link;
+  background-color: $dark-gray;
+  box-shadow: 0 0.313em 1.25em rgba(0, 0, 0, 0.25); //0 5px 20px rgba(0, 0, 0, 0.24);
+}
+
+.rightSide {
+  display: flex;
+  justify-self: end;
+  a {
+    margin-left: 1.063em; //17px
+
+    &:first-child {
+      margin-left: 0;
+    }
+  }
+}
+
+.search {
+  display: block;
+  width: 1.188em; //19px
+  height: 1.188em; //19px
+}
+
+.user {
+  display: block;
+  width: 1.125em; //18px
+  height: 1.188em; //19px
+}
+
+.cart {
+  display: block;
+  width: 1.313em; //21px
+  height: 1.188em; //19px
+}

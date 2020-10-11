@@ -1,0 +1,22 @@
+.swiper-button-next {
+  background-image: url(../../static/img/svg/arrow.svg) ;
+  transform: rotate(180deg);
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  background-position: center;
+}
+
+.swiper-button-next::after {
+  display: none;
+}
+
+.swiper-button-prev {
+  background-image: url(../../static/img/svg/arrow.svg) ;
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  background-position: center;
+}
+
+.swiper-button-prev::after {
+  display: none;
+}

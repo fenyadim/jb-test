@@ -1,0 +1,23 @@
+@mixin fonts($size, $weight: 400) {
+  font-size: $size;
+  font-weight: $weight;
+}
+
+@mixin mask {
+  position: relative;
+  clip-path: polygon(100% 0, 100% 58%, 58% 100%, 0 100%, 0 10%);
+  width: 100%;
+  overflow: hidden;
+}
+
+@mixin link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 12px;
+  width: 100px;
+  height: 25px;
+  border-radius: 7px;
+  transition: all 0.2s ease;
+  @include fonts(0.875em, 500);
+}

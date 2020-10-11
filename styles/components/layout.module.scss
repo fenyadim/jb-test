@@ -1,0 +1,15 @@
+.container {
+  position: relative;
+  margin: 0 3.750em; // 0 60px
+
+  display: grid;
+  grid-template-rows: 90px auto 90px;
+  height: 100vh;
+}
+
+.offer {
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+}
+
