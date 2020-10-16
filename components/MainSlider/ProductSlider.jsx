@@ -10,7 +10,8 @@ function ProductSlide({ src, alt, singleProduct }) {
     <div className={styles.productImg}>
       <img
         className={singleProduct ? styles.singleProduct : ""}
-        src={`http://localhost:1337${src}`}
+        // src={`http://localhost:1337${src}`}
+        src={src}
         alt={alt}
       />
     </div>
@@ -18,19 +19,6 @@ function ProductSlide({ src, alt, singleProduct }) {
 }
 
 export default function ProductSlider({ productImg }) {
-  const content = [
-    {
-      src: "../../static/img/supremexnorthface2.png",
-      alt: "Image",
-    },
-    {
-      src: "../../static/img/supremexnorthface.png",
-      alt: "Image",
-    },
-  ];
-
-  console.log(productImg.length);
-
   const params = {
     containerClass: styles.productContainer,
     // wrapperClass: "swiper-wrapper-product",

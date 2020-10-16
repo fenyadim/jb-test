@@ -1,30 +1,332 @@
 [
   {
-    "title": "Slide 1",
-    "color": "#aac3bf"
+    "created_at": "2020-10-16T15:24:41.000Z",
+    "created_by": {
+      "id": 1,
+      "firstname": "Dmitry",
+      "lastname": "Orlov",
+      "username": null
+    },
+    "description": "Supreme и The North Face снова объединились для создания весенне-летней капсулы. Коллекция Na-Kel Smith состоит из целого ряда готовых для горных прогулок костюмов.",
+    "id": 1,
+    "mainImg": {
+      "id": 1,
+      "moving": -100,
+      "title": null,
+      "alt": "NorthFace",
+      "image": {
+        "id": 1,
+        "name": "supreme-the-north-face-ss19-arc-logo-street-style-8.jpg",
+        "alternativeText": "",
+        "caption": "",
+        "width": 1280,
+        "height": 853,
+        "formats": {
+          "thumbnail": {
+            "name": "thumbnail_supreme-the-north-face-ss19-arc-logo-street-style-8.jpg",
+            "hash": "thumbnail_supreme_the_north_face_ss19_arc_logo_street_style_8_bb71c70e53",
+            "ext": ".jpg",
+            "mime": "image/jpeg",
+            "width": 234,
+            "height": 156,
+            "size": 12.43,
+            "path": null,
+            "url": "../static/img/thumbnail_supreme_the_north_face_ss19_arc_logo_street_style_8_bb71c70e53.jpg"
+          },
+          "large": {
+            "name": "large_supreme-the-north-face-ss19-arc-logo-street-style-8.jpg",
+            "hash": "large_supreme_the_north_face_ss19_arc_logo_street_style_8_bb71c70e53",
+            "ext": ".jpg",
+            "mime": "image/jpeg",
+            "width": 1000,
+            "height": 666,
+            "size": 127.68,
+            "path": null,
+            "url": "../static/img/large_supreme_the_north_face_ss19_arc_logo_street_style_8_bb71c70e53.jpg"
+          },
+          "medium": {
+            "name": "medium_supreme-the-north-face-ss19-arc-logo-street-style-8.jpg",
+            "hash": "medium_supreme_the_north_face_ss19_arc_logo_street_style_8_bb71c70e53",
+            "ext": ".jpg",
+            "mime": "image/jpeg",
+            "width": 750,
+            "height": 500,
+            "size": 81.97,
+            "path": null,
+            "url": "../static/img/medium_supreme_the_north_face_ss19_arc_logo_street_style_8_bb71c70e53.jpg"
+          },
+          "small": {
+            "name": "small_supreme-the-north-face-ss19-arc-logo-street-style-8.jpg",
+            "hash": "small_supreme_the_north_face_ss19_arc_logo_street_style_8_bb71c70e53",
+            "ext": ".jpg",
+            "mime": "image/jpeg",
+            "width": 500,
+            "height": 333,
+            "size": 42.62,
+            "path": null,
+            "url": "../static/img/small_supreme_the_north_face_ss19_arc_logo_street_style_8_bb71c70e53.jpg"
+          }
+        },
+        "hash": "supreme_the_north_face_ss19_arc_logo_street_style_8_bb71c70e53",
+        "ext": ".jpg",
+        "mime": "image/jpeg",
+        "size": 188.24,
+        "url": "../static/img/supreme-the-north-face-ss19-arc-logo-street-style-8.jpg",
+        "previewUrl": null,
+        "provider": "local",
+        "provider_metadata": null,
+        "created_by": 1,
+        "updated_by": 1,
+        "created_at": "2020-10-16T15:24:06.000Z",
+        "updated_at": "2020-10-16T15:24:07.000Z"
+      }
+    },
+    "productImage": [
+      {
+        "id": 3,
+        "name": "supremexnorthface.png",
+        "alternativeText": "",
+        "caption": "",
+        "width": 692,
+        "height": 685,
+        "formats": {
+          "thumbnail": {
+            "name": "thumbnail_supremexnorthface.png",
+            "hash": "thumbnail_supremexnorthface_fbe805d28e",
+            "ext": ".png",
+            "mime": "image/png",
+            "width": 158,
+            "height": 156,
+            "size": 48.58,
+            "path": null,
+            "url": "../static/img/thumbnail_supremexnorthface_fbe805d28e.png"
+          },
+          "small": {
+            "name": "small_supremexnorthface.png",
+            "hash": "small_supremexnorthface_fbe805d28e",
+            "ext": ".png",
+            "mime": "image/png",
+            "width": 500,
+            "height": 495,
+            "size": 424.61,
+            "path": null,
+            "url": "/uploads/small_supremexnorthface_fbe805d28e.png"
+          }
+        },
+        "hash": "supremexnorthface_fbe805d28e",
+        "ext": ".png",
+        "mime": "image/png",
+        "size": 685.01,
+        "url": "../static/img/supremexnorthface.png",
+        "previewUrl": null,
+        "provider": "local",
+        "provider_metadata": null,
+        "created_by": 1,
+        "updated_by": 1,
+        "created_at": "2020-10-16T15:27:07.000Z",
+        "updated_at": "2020-10-16T15:27:07.000Z"
+      },
+      {
+        "id": 2,
+        "name": "supremexnorthface2.png",
+        "alternativeText": "",
+        "caption": "",
+        "width": 680,
+        "height": 726,
+        "formats": {
+          "thumbnail": {
+            "name": "thumbnail_supremexnorthface2.png",
+            "hash": "thumbnail_supremexnorthface2_f006484c15",
+            "ext": ".png",
+            "mime": "image/png",
+            "width": 146,
+            "height": 156,
+            "size": 44.58,
+            "path": null,
+            "url": "../static/img/thumbnail_supremexnorthface2_f006484c15.png"
+          },
+          "small": {
+            "name": "small_supremexnorthface2.png",
+            "hash": "small_supremexnorthface2_f006484c15",
+            "ext": ".png",
+            "mime": "image/png",
+            "width": 468,
+            "height": 500,
+            "size": 394.86,
+            "path": null,
+            "url": "../static/img/small_supremexnorthface2_f006484c15.png"
+          }
+        },
+        "hash": "supremexnorthface2_f006484c15",
+        "ext": ".png",
+        "mime": "image/png",
+        "size": 687.39,
+        "url": "../static/img/supremexnorthface2.png",
+        "previewUrl": null,
+        "provider": "local",
+        "provider_metadata": null,
+        "created_by": 1,
+        "updated_by": 1,
+        "created_at": "2020-10-16T15:27:06.000Z",
+        "updated_at": "2020-10-16T15:27:07.000Z"
+      }
+    ],
+    "title": "Supreme x The North Face SS19 Collection",
+    "updated_at": "2020-10-16T15:27:14.000Z",
+    "updated_by": {
+      "id": 1,
+      "firstname": "Dmitry",
+      "lastname": "Orlov",
+      "username": null
+    },
+    "what": null
   },
   {
-    "title": "Slide 2",
-    "color": "#c9b1bd"
-  },
-  {
-    "title": "Slide 3",
-    "color": "#d5a29c"
-  },
-  {
-    "title": "Slide 4",
-    "color": "#82a7a6"
-  },
-  {
-    "title": "Slide 5",
-    "color": "#e6af7a"
-  },
-  {
-    "title": "Slide 6",
-    "color": "#95be9e"
-  },
-  {
-    "title": "Slide 7",
-    "color": "#97b5c5"
-  }
-]
+    "created_at": "2020-10-16T15:34:09.000Z",
+    "created_by": {
+      "id": 1,
+      "firstname": "Dmitry",
+      "lastname": "Orlov",
+      "username": null
+    },
+    "description": "Оригинальная куртка капсульной коллекции Nike созданная в результате коллаборации бренда Jordan и футбольного клуба «PSG»",
+    "id": 2,
+    "mainImg": {
+      "id": 2,
+      "moving": -100,
+      "title": null,
+      "alt": "Pic",
+      "image": {
+        "id": 4,
+        "name": "67402054_2085766741724549_8430507450376912896_o.jpg",
+        "alternativeText": "",
+        "caption": "",
+        "width": 1707,
+        "height": 960,
+        "formats": {
+          "thumbnail": {
+            "name": "thumbnail_67402054_2085766741724549_8430507450376912896_o.jpg",
+            "hash": "thumbnail_67402054_2085766741724549_8430507450376912896_o_c4569ab0a3",
+            "ext": ".jpg",
+            "mime": "image/jpeg",
+            "width": 245,
+            "height": 138,
+            "size": 10.68,
+            "path": null,
+            "url": "../static/img/thumbnail_67402054_2085766741724549_8430507450376912896_o_c4569ab0a3.jpg"
+          },
+          "large": {
+            "name": "large_67402054_2085766741724549_8430507450376912896_o.jpg",
+            "hash": "large_67402054_2085766741724549_8430507450376912896_o_c4569ab0a3",
+            "ext": ".jpg",
+            "mime": "image/jpeg",
+            "width": 1000,
+            "height": 562,
+            "size": 102.93,
+            "path": null,
+            "url": "../static/img/large_67402054_2085766741724549_8430507450376912896_o_c4569ab0a3.jpg"
+          },
+          "medium": {
+            "name": "medium_67402054_2085766741724549_8430507450376912896_o.jpg",
+            "hash": "medium_67402054_2085766741724549_8430507450376912896_o_c4569ab0a3",
+            "ext": ".jpg",
+            "mime": "image/jpeg",
+            "width": 750,
+            "height": 422,
+            "size": 61.55,
+            "path": null,
+            "url": "../static/img/medium_67402054_2085766741724549_8430507450376912896_o_c4569ab0a3.jpg"
+          },
+          "small": {
+            "name": "small_67402054_2085766741724549_8430507450376912896_o.jpg",
+            "hash": "small_67402054_2085766741724549_8430507450376912896_o_c4569ab0a3",
+            "ext": ".jpg",
+            "mime": "image/jpeg",
+            "width": 500,
+            "height": 281,
+            "size": 32.67,
+            "path": null,
+            "url": "../static/img/small_67402054_2085766741724549_8430507450376912896_o_c4569ab0a3.jpg"
+          }
+        },
+        "hash": "67402054_2085766741724549_8430507450376912896_o_c4569ab0a3",
+        "ext": ".jpg",
+        "mime": "image/jpeg",
+        "size": 260.69,
+        "url": "../static/img/67402054_2085766741724549_8430507450376912896_o.jpg",
+        "previewUrl": null,
+        "provider": "local",
+        "provider_metadata": null,
+        "created_by": 1,
+        "updated_by": 1,
+        "created_at": "2020-10-16T15:33:43.000Z",
+        "updated_at": "2020-10-16T15:33:43.000Z"
+      }
+    },
+    "productImage": [
+      {
+        "id": 5,
+        "name": "11-10-2019_airjordan_-xpsgvarsityjacket_black_bq8363-010_si_1.png",
+        "alternativeText": "",
+        "caption": "",
+        "width": 1000,
+        "height": 1000,
+        "formats": {
+          "thumbnail": {
+            "name": "thumbnail_11-10-2019_airjordan_-xpsgvarsityjacket_black_bq8363-010_si_1.png",
+            "hash": "thumbnail_11_10_2019_airjordan_xpsgvarsityjacket_black_bq8363_010_si_1_3ffc79ac30",
+            "ext": ".png",
+            "mime": "image/png",
+            "width": 156,
+            "height": 156,
+            "size": 42.27,
+            "path": null,
+            "url": "../static/img/thumbnail_11_10_2019_airjordan_xpsgvarsityjacket_black_bq8363_010_si_1_3ffc79ac30.png"
+          },
+          "medium": {
+            "name": "medium_11-10-2019_airjordan_-xpsgvarsityjacket_black_bq8363-010_si_1.png",
+            "hash": "medium_11_10_2019_airjordan_xpsgvarsityjacket_black_bq8363_010_si_1_3ffc79ac30",
+            "ext": ".png",
+            "mime": "image/png",
+            "width": 750,
+            "height": 750,
+            "size": 602.16,
+            "path": null,
+            "url": "../static/img/medium_11_10_2019_airjordan_xpsgvarsityjacket_black_bq8363_010_si_1_3ffc79ac30.png"
+          },
+          "small": {
+            "name": "small_11-10-2019_airjordan_-xpsgvarsityjacket_black_bq8363-010_si_1.png",
+            "hash": "small_11_10_2019_airjordan_xpsgvarsityjacket_black_bq8363_010_si_1_3ffc79ac30",
+            "ext": ".png",
+            "mime": "image/png",
+            "width": 500,
+            "height": 500,
+            "size": 297.73,
+            "path": null,
+            "url": "../static/img/small_11_10_2019_airjordan_xpsgvarsityjacket_black_bq8363_010_si_1_3ffc79ac30.png"
+          }
+        },
+        "hash": "11_10_2019_airjordan_xpsgvarsityjacket_black_bq8363_010_si_1_3ffc79ac30",
+        "ext": ".png",
+        "mime": "image/png",
+        "size": 560.03,
+        "url": "../static/img/11-10-2019_airjordan_-xpsgvarsityjacket_black_bq8363-010_si_1.png",
+        "previewUrl": null,
+        "provider": "local",
+        "provider_metadata": null,
+        "created_by": 1,
+        "updated_by": 1,
+        "created_at": "2020-10-16T15:34:02.000Z",
+        "updated_at": "2020-10-16T15:34:02.000Z"
+      }
+    ],
+    "title": "Jordan Psg Varsity Jacket",
+    "updated_at": "2020-10-16T15:34:10.000Z",
+    "updated_by": {
+      "id": 1,
+      "firstname": "Dmitry",
+      "lastname": "Orlov",
+      "username": null
+    },
+    "what": null
+  }]

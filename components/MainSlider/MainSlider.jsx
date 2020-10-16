@@ -7,19 +7,7 @@ import { SliderSlides } from "../index";
 import styles from "../../styles/components/slider.module.scss";
 
 export default function MainSlider({ data }) {
-  const contentSlider = [
-    {
-      title: "Supreme x The North Face SS19 Collection",
-      desc:
-        "Supreme и The North Face снова объединились для создания весенне-летней капсулы. Коллекция Na-Kel Smith состоит из целого ряда готовых для горных прогулок костюмов.",
-    },
-    {
-      title: "Supreme x The North Face",
-      desc:
-        "Supreme и The North Face снова объединились для создания весенне-летней капсулы. Коллекция Na-Kel Smith состоит из целого ряда готовых для горных прогулок костюмов.",
-    },
-  ];
-
+  // console.log(data);
   const params = {
     containerClass: styles.swiperContainer,
     slideActiveClass: styles.swiperSlideActive,
