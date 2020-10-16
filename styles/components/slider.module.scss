@@ -1,0 +1,161 @@
+@import "../vendors/mixin";
+
+.swiperContainer {
+  height: 100%;
+}
+
+.productContainer {
+  $height: 600px;
+  width: $height+50px;
+  height: $height;
+  overflow: hidden;
+  img {
+    display: block;
+    margin: 0 auto;
+    height: 100%;
+  }
+}
+
+.productWrapper {
+  z-index: 2;
+}
+
+.singleProduct {
+  width: 650px;
+  height: 600px;
+}
+
+.offer {
+  display: grid;
+  grid-template-rows: 3fr 3fr;
+  height: 100%;
+}
+
+.imageOffer {
+  @include mask;
+  opacity: 1 !important;
+  img {
+    opacity: 0.8;
+    position: absolute;
+    object-fit: cover;
+    width: 100%;
+  }
+}
+
+.infoOffer {
+  display: grid;
+  grid-template-columns: 1.5fr 2fr;
+}
+
+.leftInfo {
+  align-self: center;
+}
+
+.rightInfo {
+  position: relative;
+}
+
+.button {
+  opacity: 0;
+  @include fonts(0.875em, 500);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  width: 168px;
+  height: 45px;
+  border-radius: 7px;
+  background: #1A1A1A;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.24);
+}
+
+.sliderInfo {
+  opacity: 0;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.leftTitle {
+  @include fonts(2.250em, 700); //font-size: 36px; font-weight: 700;
+  text-transform: uppercase;
+  opacity: 0;
+}
+
+.leftDescription {
+  @include fonts(0.875em); //14px
+  width: 80%;
+  line-height: 130%;
+  margin: 15px 0;
+  opacity: 0;
+}
+
+.productImg {
+  height: 100%;
+}
+
+.swiperSlideActive {
+  .imageOffer {
+    img {
+      opacity: 1;
+      animation-name: fadeDown;
+      animation-duration: 1.5s;
+    }
+  }
+  .leftTitle {
+    opacity: 1;
+    animation-name: fadeForLeft;
+    animation-duration: 1s;
+  }
+  .leftDescription {
+    opacity: 1;
+    animation-name: fadeForLeft;
+    animation-duration: 1.5s;
+  }
+  .button {
+    opacity: 1;
+    animation-name: fadeForLeft;
+    animation-duration: 2s;
+  }
+  .sliderInfo {
+    opacity: 1;
+    animation-name: fadeForRight;
+    animation-duration: 1s;
+  }
+  z-index: 5;
+}
+
+@keyframes fadeDown {
+  0% {
+    opacity: 0.8;
+    transform: translateY(50px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fadeForLeft {
+  0% {
+    opacity: 0;
+    transform: translateX(50px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes fadeForRight {
+  0% {
+    opacity: 0;
+    transform: translateX(-50px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}

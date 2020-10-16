@@ -3,6 +3,7 @@ export { default as Header } from "./Header";
 export { default as Layout } from "./Layout";
 export { default as Footer } from "./Footer";
 
-//Home
-export { default as HomeSlider } from "./HomeSlider";
-export { default as ProductSlider } from "./ProductSlider";
+//Slider
+export { default as MainSlider } from "./MainSlider/MainSlider";
+export { default as SliderSlides } from "./MainSlider/SlidesSlider";
+export { default as ProductSlider } from "./MainSlider/ProductSlider";

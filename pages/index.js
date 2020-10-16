@@ -1,10 +1,21 @@
-import { Layout, HomeSlider } from "../components";
+import { Layout, MainSlider } from "../components";
 
-export default function Home() {
+export default function Home({ data }) {
   return (
     <Layout>
-      <HomeSlider />
-      <HomeSlider />
+      <MainSlider data={data} />
     </Layout>
   );
+}
+
+export async function getServerSideProps() {
+  const http = "http://localhost:1337/slides";
+  const res = await fetch(http);
+  const data = await res.json();
+
+  return {
+    props: {
+      data,
+    },
+  };
 }
