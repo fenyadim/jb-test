@@ -53,6 +53,7 @@
 .infoOffer {
   display: grid;
   grid-template-columns: 1.5fr 2fr;
+  opacity: 0;
 }
 
 .leftInfo {
@@ -120,6 +121,9 @@
     img {
       transform: translateY(0);
     }
+  }
+  .infoOffer {
+    opacity: 1;
   }
   .leftTitle {
     @extend %endpoint;
