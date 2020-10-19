@@ -1,9 +1,10 @@
+//Переменные
+@import "vendors/var";
+@import "vendors/mixin";
+
 //Глобальные стили
 @import "base/fonts";
 @import "base/globals";
-
-//Переменные
-@import "vendors/var";
 
 // Компоненты
 @import "components/swiper"; // Слайдер Swiper

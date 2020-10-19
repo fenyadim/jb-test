@@ -7,7 +7,6 @@ import { SliderSlides } from "../index";
 import styles from "../../styles/components/slider.module.scss";
 
 export default function MainSlider({ data }) {
-  // console.log(data);
   const params = {
     containerClass: styles.swiperContainer,
     slideActiveClass: styles.swiperSlideActive,

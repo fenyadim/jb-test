@@ -17,9 +17,7 @@ export default function SlidesSlider({ title, desc, mainImg, productImg }) {
         <div className={styles.leftInfo}>
           <h1 className={styles.leftTitle}>{title}</h1>
           <p className={styles.leftDescription}>{desc}</p>
-          <a className={styles.button} href="#">
-            Подробнее
-          </a>
+          <button className={styles.button}>Подробнее</button>
         </div>
         <div className={styles.rightInfo}>
           <div className={styles.sliderInfo}>

@@ -21,7 +21,6 @@ function ProductSlide({ src, alt, singleProduct }) {
 export default function ProductSlider({ productImg }) {
   const params = {
     containerClass: styles.productContainer,
-    // wrapperClass: "swiper-wrapper-product",
     spaceBetween: 50,
     slidesPerView: 1,
     navigation: {

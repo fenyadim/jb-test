@@ -3,7 +3,11 @@ body {
   padding: 0;
   margin: 0;
   font-family: 'Montserrat', sans-serif;
-  @include regular;
+  @include fonts(1em); //16px
+}
+
+button {
+  outline: none;
 }
 
 h1, h2, h3 {
