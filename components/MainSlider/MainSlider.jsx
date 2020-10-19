@@ -1,6 +1,6 @@
 import Swiper from "react-id-swiper";
-import SwiperCore, { EffectFade } from "swiper";
-SwiperCore.use([EffectFade]);
+import SwiperCore, { Pagination, EffectFade } from "swiper";
+SwiperCore.use([Pagination, EffectFade]);
 
 import { SliderSlides } from "../index";
 
@@ -11,12 +11,27 @@ export default function MainSlider({ data }) {
   const params = {
     containerClass: styles.swiperContainer,
     slideActiveClass: styles.swiperSlideActive,
-    fadeEffect: {
-      crossFade: false,
-    },
-    effect: "fade",
+    slidePrevClass: styles.swiperSlidePrev,
+    direction: "vertical",
+    // fadeEffect: {
+    //   crossFade: true,
+    // },
+    // effect: "fade",
     mousewheel: true,
-    speed: 1000,
+    pagination: {
+      el: ".swiper-pagination",
+      clickable: true,
+      renderBullet: (index, className) => {
+        return (
+          '<span class="' +
+          className +
+          " " +
+          styles.swiperPaginationBullet +
+          '"></span>'
+        );
+      },
+    },
+    speed: 800,
     spaceBetween: 50,
   };
 

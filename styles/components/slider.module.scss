@@ -5,6 +5,7 @@
 }
 
 .productContainer {
+  z-index: 10;
   $height: 600px;
   width: $height+50px;
   height: $height;
@@ -25,6 +26,12 @@
   height: 600px;
 }
 
+.swiperPaginationBullet {
+  width: 10px;
+  height: 10px;
+  background: #1A1A1A;
+}
+
 .offer {
   display: grid;
   grid-template-rows: 3fr 3fr;
@@ -33,9 +40,10 @@
 
 .imageOffer {
   @include mask;
-  opacity: 1 !important;
   img {
-    opacity: 0.8;
+    transform: translateY(-100px);
+    transition: transform 1.2s ease;
+
     position: absolute;
     object-fit: cover;
     width: 100%;
@@ -56,8 +64,10 @@
 }
 
 .button {
-  opacity: 0;
   @include fonts(0.875em, 500);
+  @include fadeIn;
+  @include transformAnimate(2s);
+
   display: flex;
   justify-content: center;
   align-items: center;
@@ -70,26 +80,31 @@
 }
 
 .sliderInfo {
-  opacity: 0;
+  @include fadeIn;
+  @include transformAnimate(1.5s, -50px);
+
   position: absolute;
-  right: 0;
+  right: 50px;
   bottom: 0;
-  display: flex;
-  justify-content: center;
 }
 
 .leftTitle {
   @include fonts(2.250em, 700); //font-size: 36px; font-weight: 700;
+  @include fadeIn;
+  @include transformAnimate(1s);
+
   text-transform: uppercase;
-  opacity: 0;
+
 }
 
 .leftDescription {
   @include fonts(0.875em); //14px
+  @include fadeIn;
+  @include transformAnimate(1.5s);
+
   width: 80%;
   line-height: 130%;
   margin: 15px 0;
-  opacity: 0;
 }
 
 .productImg {
@@ -97,65 +112,34 @@
 }
 
 .swiperSlideActive {
+  %endpoint {
+    opacity: 1;
+    transform: translateX(0);
+  }
   .imageOffer {
     img {
-      opacity: 1;
-      animation-name: fadeDown;
-      animation-duration: 1.5s;
+      transform: translateY(0);
     }
   }
   .leftTitle {
-    opacity: 1;
-    animation-name: fadeForLeft;
-    animation-duration: 1s;
+    @extend %endpoint;
   }
   .leftDescription {
-    opacity: 1;
-    animation-name: fadeForLeft;
-    animation-duration: 1.5s;
+    @extend %endpoint;
   }
   .button {
-    opacity: 1;
-    animation-name: fadeForLeft;
-    animation-duration: 2s;
+    @extend %endpoint;
   }
   .sliderInfo {
-    opacity: 1;
-    animation-name: fadeForRight;
-    animation-duration: 1s;
+    @extend %endpoint
   }
-  z-index: 5;
+  //z-index: 5;
 }
 
-@keyframes fadeDown {
-  0% {
-    opacity: 0.8;
-    transform: translateY(50px);
-  }
-  100% {
-    opacity: 1;
-    transform: translateY(0);
-  }
-}
-
-@keyframes fadeForLeft {
-  0% {
-    opacity: 0;
-    transform: translateX(50px);
-  }
-  100% {
-    opacity: 1;
-    transform: translateX(0);
-  }
-}
-
-@keyframes fadeForRight {
-  0% {
-    opacity: 0;
-    transform: translateX(-50px);
-  }
-  100% {
-    opacity: 1;
-    transform: translateX(0);
+.swiperSlidePrev {
+  .imageOffer {
+    img {
+      transform: translateY(100px);
+    }
   }
 }

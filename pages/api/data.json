@@ -193,7 +193,7 @@
     "id": 2,
     "mainImg": {
       "id": 2,
-      "moving": -100,
+      "moving": -50,
       "title": null,
       "alt": "Pic",
       "image": {
@@ -329,4 +329,154 @@
       "username": null
     },
     "what": null
-  }]
+  },
+  {
+    "created_at": "2020-10-16T15:34:09.000Z",
+    "created_by": {
+      "id": 1,
+      "firstname": "Dmitry",
+      "lastname": "Orlov",
+      "username": null
+    },
+    "description": "Оригинальная куртка капсульной коллекции Nike созданная в результате коллаборации бренда Jordan и футбольного клуба «PSG»",
+    "id": 3,
+    "mainImg": {
+      "id": 2,
+      "moving": -50,
+      "title": null,
+      "alt": "Pic",
+      "image": {
+        "id": 4,
+        "name": "67402054_2085766741724549_8430507450376912896_o.jpg",
+        "alternativeText": "",
+        "caption": "",
+        "width": 1707,
+        "height": 960,
+        "formats": {
+          "thumbnail": {
+            "name": "thumbnail_67402054_2085766741724549_8430507450376912896_o.jpg",
+            "hash": "thumbnail_67402054_2085766741724549_8430507450376912896_o_c4569ab0a3",
+            "ext": ".jpg",
+            "mime": "image/jpeg",
+            "width": 245,
+            "height": 138,
+            "size": 10.68,
+            "path": null,
+            "url": "../static/img/thumbnail_67402054_2085766741724549_8430507450376912896_o_c4569ab0a3.jpg"
+          },
+          "large": {
+            "name": "large_67402054_2085766741724549_8430507450376912896_o.jpg",
+            "hash": "large_67402054_2085766741724549_8430507450376912896_o_c4569ab0a3",
+            "ext": ".jpg",
+            "mime": "image/jpeg",
+            "width": 1000,
+            "height": 562,
+            "size": 102.93,
+            "path": null,
+            "url": "../static/img/large_67402054_2085766741724549_8430507450376912896_o_c4569ab0a3.jpg"
+          },
+          "medium": {
+            "name": "medium_67402054_2085766741724549_8430507450376912896_o.jpg",
+            "hash": "medium_67402054_2085766741724549_8430507450376912896_o_c4569ab0a3",
+            "ext": ".jpg",
+            "mime": "image/jpeg",
+            "width": 750,
+            "height": 422,
+            "size": 61.55,
+            "path": null,
+            "url": "../static/img/medium_67402054_2085766741724549_8430507450376912896_o_c4569ab0a3.jpg"
+          },
+          "small": {
+            "name": "small_67402054_2085766741724549_8430507450376912896_o.jpg",
+            "hash": "small_67402054_2085766741724549_8430507450376912896_o_c4569ab0a3",
+            "ext": ".jpg",
+            "mime": "image/jpeg",
+            "width": 500,
+            "height": 281,
+            "size": 32.67,
+            "path": null,
+            "url": "../static/img/small_67402054_2085766741724549_8430507450376912896_o_c4569ab0a3.jpg"
+          }
+        },
+        "hash": "67402054_2085766741724549_8430507450376912896_o_c4569ab0a3",
+        "ext": ".jpg",
+        "mime": "image/jpeg",
+        "size": 260.69,
+        "url": "../static/img/67402054_2085766741724549_8430507450376912896_o.jpg",
+        "previewUrl": null,
+        "provider": "local",
+        "provider_metadata": null,
+        "created_by": 1,
+        "updated_by": 1,
+        "created_at": "2020-10-16T15:33:43.000Z",
+        "updated_at": "2020-10-16T15:33:43.000Z"
+      }
+    },
+    "productImage": [
+      {
+        "id": 5,
+        "name": "11-10-2019_airjordan_-xpsgvarsityjacket_black_bq8363-010_si_1.png",
+        "alternativeText": "",
+        "caption": "",
+        "width": 1000,
+        "height": 1000,
+        "formats": {
+          "thumbnail": {
+            "name": "thumbnail_11-10-2019_airjordan_-xpsgvarsityjacket_black_bq8363-010_si_1.png",
+            "hash": "thumbnail_11_10_2019_airjordan_xpsgvarsityjacket_black_bq8363_010_si_1_3ffc79ac30",
+            "ext": ".png",
+            "mime": "image/png",
+            "width": 156,
+            "height": 156,
+            "size": 42.27,
+            "path": null,
+            "url": "../static/img/thumbnail_11_10_2019_airjordan_xpsgvarsityjacket_black_bq8363_010_si_1_3ffc79ac30.png"
+          },
+          "medium": {
+            "name": "medium_11-10-2019_airjordan_-xpsgvarsityjacket_black_bq8363-010_si_1.png",
+            "hash": "medium_11_10_2019_airjordan_xpsgvarsityjacket_black_bq8363_010_si_1_3ffc79ac30",
+            "ext": ".png",
+            "mime": "image/png",
+            "width": 750,
+            "height": 750,
+            "size": 602.16,
+            "path": null,
+            "url": "../static/img/medium_11_10_2019_airjordan_xpsgvarsityjacket_black_bq8363_010_si_1_3ffc79ac30.png"
+          },
+          "small": {
+            "name": "small_11-10-2019_airjordan_-xpsgvarsityjacket_black_bq8363-010_si_1.png",
+            "hash": "small_11_10_2019_airjordan_xpsgvarsityjacket_black_bq8363_010_si_1_3ffc79ac30",
+            "ext": ".png",
+            "mime": "image/png",
+            "width": 500,
+            "height": 500,
+            "size": 297.73,
+            "path": null,
+            "url": "../static/img/small_11_10_2019_airjordan_xpsgvarsityjacket_black_bq8363_010_si_1_3ffc79ac30.png"
+          }
+        },
+        "hash": "11_10_2019_airjordan_xpsgvarsityjacket_black_bq8363_010_si_1_3ffc79ac30",
+        "ext": ".png",
+        "mime": "image/png",
+        "size": 560.03,
+        "url": "../static/img/11-10-2019_airjordan_-xpsgvarsityjacket_black_bq8363-010_si_1.png",
+        "previewUrl": null,
+        "provider": "local",
+        "provider_metadata": null,
+        "created_by": 1,
+        "updated_by": 1,
+        "created_at": "2020-10-16T15:34:02.000Z",
+        "updated_at": "2020-10-16T15:34:02.000Z"
+      }
+    ],
+    "title": "Jordan Psg Varsity Jacket",
+    "updated_at": "2020-10-16T15:34:10.000Z",
+    "updated_by": {
+      "id": 1,
+      "firstname": "Dmitry",
+      "lastname": "Orlov",
+      "username": null
+    },
+    "what": null
+  }
+]
