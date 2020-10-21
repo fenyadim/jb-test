@@ -6,7 +6,7 @@
 
 .productContainer {
   z-index: 10;
-  $height: 600px;
+  $height: 550px;
   width: $height+50px;
   height: $height;
   overflow: hidden;
@@ -18,8 +18,8 @@
 }
 
 .singleProduct {
-  width: 650px;
-  height: 600px;
+  width: 600px;
+  height: 550px;
 }
 
 .swiperPaginationBullet {
@@ -39,7 +39,6 @@
   img {
     transform: translateY(-100px);
     transition: transform 1.2s ease;
-
     position: absolute;
     object-fit: cover;
     width: 100%;

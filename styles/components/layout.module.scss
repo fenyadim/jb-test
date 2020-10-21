@@ -1,9 +1,9 @@
 .container {
   position: relative;
-  margin: 0 3.750em; // 0 60px
+  margin: 0 60px;
 
   display: grid;
-  grid-template-rows: 90px auto 90px;
+  grid-template-rows: 90px auto 70px;
   height: 100vh;
 }
 
