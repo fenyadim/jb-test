@@ -8,8 +8,7 @@ export default function SlidesSlider({ title, desc, mainImg, productImg }) {
       <div className={styles.imageOffer}>
         <img
           style={{ top: `${mainImg.moving}%` }}
-          // src={`http://localhost:1337${mainImg.image.url}`}
-          src={mainImg.image.url}
+          src={`http://localhost:1337${mainImg.image.url}`}
           alt={mainImg.alt}
         />
       </div>
@@ -17,6 +16,7 @@ export default function SlidesSlider({ title, desc, mainImg, productImg }) {
         <div className={styles.leftInfo}>
           <h1 className={styles.leftTitle}>{title}</h1>
           <p className={styles.leftDescription}>{desc}</p>
+          {/*className={styles.button}*/}
           <button className={styles.button}>Подробнее</button>
         </div>
         <div className={styles.rightInfo}>

@@ -1,5 +1,9 @@
-import Layout from "../../components/Layout";
+import { Layout, Catalog } from "../../components/";
 
 export default function Male() {
-  return <Layout>male</Layout>;
+  return (
+    <Layout>
+      <Catalog />
+    </Layout>
+  );
 }

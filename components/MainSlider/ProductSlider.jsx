@@ -10,8 +10,7 @@ function ProductSlide({ src, alt, singleProduct }) {
     <div className={styles.productImg}>
       <img
         className={singleProduct ? styles.singleProduct : ""}
-        // src={`http://localhost:1337${src}`}
-        src={src}
+        src={`http://localhost:1337${src}`}
         alt={alt}
       />
     </div>
@@ -28,7 +27,6 @@ export default function ProductSlider({ productImg }) {
       prevEl: ".swiper-button-prev",
     },
     loop: true,
-    // mousewheel: true,
   };
 
   return (

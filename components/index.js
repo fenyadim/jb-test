@@ -7,3 +7,6 @@ export { default as Footer } from "./Footer";
 export { default as MainSlider } from "./MainSlider/MainSlider";
 export { default as SliderSlides } from "./MainSlider/SlidesSlider";
 export { default as ProductSlider } from "./MainSlider/ProductSlider";
+
+//Catalog
+export { default as Catalog } from "./Catalog/Catalog/Catalog";

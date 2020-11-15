@@ -1,0 +1,63 @@
+@import '../../../styles/vendors/mixin';
+
+.filterItems {
+  display: flex;
+
+}
+
+.item {
+  position: relative;
+
+  display: flex;
+  padding: 0 10px;
+  align-items: center;
+  height: 37px;
+  margin-right: 10px;
+
+  font-weight: 600;
+  font-size: 0.875em;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+
+  border-radius: 7px;
+  background-color: white;
+  cursor: pointer;
+  &:last-child {
+    margin-right: 0;
+  }
+}
+
+.menu {
+  position: absolute;
+  top: 47px;
+  left: 0;
+  background-color: white;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 7px;
+  @include fonts(1.143em, 600);
+  padding: 10px;
+  min-width: 90px;
+  animation-name: fadeIn;
+  animation-duration: .3s;
+  label {
+    display: flex;
+    margin-bottom: 10px;
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+}
+
+.menuTitle {
+  //@include fonts(1.143em, 600);
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+    transform: translateY(-5px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

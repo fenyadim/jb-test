@@ -1,0 +1,15 @@
+$dark-gray: #F0F0F0;
+
+.sidebar {
+  min-height: 290px;
+  padding: 14px 18px;
+  background-color: $dark-gray;
+  border-radius: 7px;
+}
+
+.category {
+  li {
+    margin: 17px 0;
+    font-weight: 600;
+  }
+}

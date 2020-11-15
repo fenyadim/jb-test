@@ -1,0 +1,29 @@
+@import '../../../styles/vendors/colors';
+
+.wrapper {
+  display: grid;
+  height: 100%;
+  grid-template-areas: 'sidebar filter' 'sidebar products';
+  grid-template-columns: 289px auto;
+  grid-template-rows: 47px auto;
+  grid-gap: 19px;
+}
+
+.wrapperSidebar {
+  grid-area: sidebar;
+}
+
+.wrapperFilter {
+  grid-area: filter;
+  display: flex;
+  justify-content: space-between;
+  background-color: $gray;
+  border-radius: 7px;
+  padding: 5px 5px;
+}
+
+.wrapperProducts {
+  grid-area: products;
+  display: grid;
+
+}
